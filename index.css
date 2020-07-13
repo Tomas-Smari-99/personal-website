@@ -1,0 +1,108 @@
+* {
+    margin: 0px;
+   padding: 0px;
+}
+
+body {
+      font-family: 'Poppins', sans-serif;
+    background-image: url(https://i.pinimg.com/originals/13/dd/d1/13ddd1ea7319fa95c6e37445f9d428cd.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    color: white;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    outline: inherit;
+    background: transparent;
+    color:inherit;
+}
+
+#menu-button {
+          position: fixed;
+          right: 2rem;
+          top: 2rem;
+
+}
+
+#menu{
+    position: fixed;
+    top: 30vh;
+    display: none;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.menu-item{
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
+
+.section{
+   padding-left: 10vw;
+   padding-top: 30vh; 
+}
+
+#home h1 {
+   font-size: 5rem; 
+}
+
+#home p {
+font-size: 1.8rem;
+margin-bottom: 1rem;
+color: rgb(142, 157, 165);
+}
+
+#color-text {
+    color: white;
+} 
+
+#projects, #about, #contact {
+    display: none;
+    
+}
+
+h2 {
+    font-size: 3rem;
+
+}
+
+#projects-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+.project-text {
+    text-align: left;
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+
+#about-text{
+    text-align: left;
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+#contact-container {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 1.5rem;
+    padding-right: 2rem;
+}
+
+.icon-link {
+    text-decoration: none;
+    color: black;
+    margin-right: 1rem;
+    color: white;
+}
+
+a:hover, .menu-item:hover, #menu-button:hover {
+    opacity: 0.7;
+}
+
